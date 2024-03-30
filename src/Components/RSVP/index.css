@@ -1,0 +1,51 @@
+.rsvp-div{
+    background-image: url("https://s3-alpha-sig.figma.com/img/a86d/9db6/4e5189a291f54be9ece2f5a2332cb6ab?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E-VLuJZBoYf8-XNQtXIyYajrNsSyD9dNQsJbwyo6TsWRsRzPITr1W6GrmOZ9Y9veeg14FoIkTSb7JbUPGOP~nBur~7LWnlNPtDKUatouasTwOQtPIyEAfpHAFtidrdKYF1NWOie8c2cSlQE4IOPar5V3h5zRfMauR~k2zL0xRG2JRbvw1qV9aBScKdeTUgD77jiwLi6bvdIMlEBKQkpwpgu04ifpz13Whsbk64UKezeI4jcuPlJT5Xs-KaGQPFCuksn3Q6H2kOlI6b7JQNI5BOicuufwvQvieI-VS0XXyBdlhPdaq-4Cz8kgZ4I9Yq5QtukUccFTwJ6bCjPFUhm5tA__");
+    width: 90%;
+    background-size: cover;
+    margin-top: 50px;
+    padding: 20px 30px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rsvp-form{
+    background-color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+}
+.rsvp-inp{
+    background-color: white;
+    border-width: 0px 0px 2px 0px;
+    border-color: #BDBEBC;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 15px 10px;
+}
+.radio-div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.align-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.rsvp-button{
+    background-color: #586245;
+    color: white;
+    border: 0px;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.radio-text{
+    color: #5C5C5C;
+}

@@ -1,0 +1,25 @@
+.book-div{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3EE;
+    margin-top: 50px;
+}
+.left-page-div{
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+}
+.right-page-div{
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+}
+.page-img{
+    object-fit: cover;
+}

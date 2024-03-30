@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.jost-font{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sail-font{
+  font-family: "Sail", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

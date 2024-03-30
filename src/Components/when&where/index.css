@@ -1,0 +1,14 @@
+.ww-p1{
+    color: #C8A898;
+    font-size: 15px;
+}
+.ww-p2{
+    color: #5C5C5C;
+    font-size: 18px;
+}
+.map-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+}
