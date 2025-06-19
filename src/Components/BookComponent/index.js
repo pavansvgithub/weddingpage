@@ -1,35 +1,57 @@
-import { Component } from "react";
+import React, { useState } from "react";
 import "./index.css";
+
 import book1Image from "../../images/book-1.jpg";
 import book2Image from "../../images/book-2.jpg";
+import book3Image from "../../images/book-3.jpg"; // Add more pages if available
+import book4Image from "../../images/book-4.jpg";
 
-class BookComponent extends Component {
-  state = { ind: 0 };
+const pages = [
+  book1Image,
+  book2Image,
+  book3Image,
+  book4Image,
+];
 
-  rightclick = () => {
-    this.setState((prevState) => ({ ind: prevState.ind + 2 }));
-  };
-  leftclick = () => {
-    const { ind } = this.state;
-    if (ind !== 0) {
-      this.setState((prevState) => ({ ind: prevState.ind - 2 }));
+const BookComponent = () => {
+  const [index, setIndex] = useState(0);
+
+  const handleNext = () => {
+    if (index + 2 < pages.length) {
+      setIndex(index + 2);
     }
   };
 
-  render() {
-    const { ind } = this.state;
-    return (
-      <div className="book-div">
-        <div className="left-page-div" onClick={this.leftclick}>
-          <img className="w-100 h-100 page-img" src={book1Image} alt="" />
-        </div>
+  const handlePrev = () => {
+    if (index > 0) {
+      setIndex(index - 2);
+    }
+  };
 
-        <div className="right-page-div" onClick={this.rightclick}>
-          <img className="w-100 h-100 page-img" src={book2Image} alt="" />
-        </div>
+  return (
+    <div className="book-div d-flex">
+      <div className="left-page-div" onClick={handlePrev}>
+        {pages[index] && (
+          <img
+            className="w-100 h-100 page-img"
+            src={pages[index]}
+            alt={`Page ${index + 1}`}
+          />
+        )}
       </div>
-    );
-  }
-}
+
+      <div className="right-page-div" onClick={handleNext}>
+        {pages[index + 1] && (
+          <img
+            className="w-100 h-100 page-img"
+            src={pages[index + 1]}
+            alt={`Page ${index + 2}`}
+          />
+        )}
+      </div>
+    </div>
+  );
+};
 
 export default BookComponent;
+
