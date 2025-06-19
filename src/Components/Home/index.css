@@ -1,19 +1,28 @@
-.home-bg {
-  background-color: #fffaf4;
-  padding: 40px 20px;
+.home-bg{
+    background-image: url("https://s3-alpha-sig.figma.com/img/52bd/bf11/3f4b37ea9732f09a535ca8da7ac39ae3?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tlg2ngr451iBHA-h6SyiCfY0cOkYROFJczdkgUX~tfEvxajtr9OWKta5iDJhaBcTwtC75rfyOc-VMRzeLglqfUthQ2ZsG5EF6r3INjOlw-pms4QeK~RQaOFbFVlQsEJhx-ZzhHFboR183D6ZFafgXjxd8Hm82gMGo2hvLOV--eHRuRMdEuys8WXREoDG-3v~V0vb~a1OPIcBlLJJO3rMtV2lUHbgj~xOSaq8PD4v6zEDSssfHwMOJU3KZ0X6z8CxF3iJ2nNJCKMWj5Qc~UEzzAhC7LlM3o91WYKVTKGl1zGSU4idj7OOXGYQk003o6RcyKPIidkK1VJl1jXCxHy7RQ__");
+    background-size: cover;
+    height: 140vh;
+    position: relative;
 }
+.home-img{
+    z-index: -1;
+    position: absolute;
+    width: 35%;
 
-.home-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
 }
-
-.home-p {
-  font-size: 18px;
-  color: #555;
+.home-h1{
+    font-size: 50px;
 }
-
-.home-img {
-  max-width: 90%;
-  height: auto;
+.home-p{
+    font-size: 20px;
+}
+.home-bg-2{
+    background-image: url("https://s3-alpha-sig.figma.com/img/c34d/526e/2f8adbdeb9282f6767b590f848cdfdbc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NWmJCZ-Rysumi8FWwybSQ4RAtr51i2di~pzCtT9b8BMyj4Ua5SLSv18NY~XTjh4M0rS-E5PanJmj0wjzgVMB6mtpie~oPIToRLhcTt4nffsWnp~0NCWkHhSp7vUAQEcTXvQFcq85xQ3mU9QZU5mX-IVcJuZt54AI~RdYOGKny9~PBirBZf5mNf~n-TxEezKDqBM0o5i~78ydbSm6uyk6FIUeDWiBfuCZx11DBCoLOLHZXXkeikApLzdAh49cOlbf1NkYNMvydDYQM1cK2D6QFxSlmmKRPhPWvWexdv~-RJZTrwWJzisMbX1IsUS3tSF-1C2SNgKuyaUwR7R2qXY6qA__");
+    background-size: cover;
+}
+.name-section{
+    height: 50vh;
+}
+.name-section-p{
+    font-size: 20px;
 }
