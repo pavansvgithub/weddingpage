@@ -1,23 +1,16 @@
-.header-div {
-  background-color: #fff;
-  padding: 20px 0;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+.primary-color{
+    color: #586245;
 }
-
-.header-h1 {
-  font-size: 36px;
-  margin-right: 40px;
+.header-text{
+    font-weight:500;
+    font-size: 15px;
 }
-
-.navitem-div a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #444;
-  text-decoration: none;
-  transition: color 0.3s ease;
+.header-div{
+    padding-left: 100px;
 }
-
-.navitem-div a:hover,
-.navitem-div .active {
-  color: #d63384;
+.header-h1{
+    font-size: 40px;
+}
+.navitem-div{
+    margin-left: 300px;
 }
