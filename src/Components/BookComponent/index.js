@@ -3,15 +3,8 @@ import "./index.css";
 
 import book1Image from "../../images/book-1.jpg";
 import book2Image from "../../images/book-2.jpg";
-import book3Image from "../../images/book-3.jpg"; // Add more pages if available
-import book4Image from "../../images/book-4.jpg";
 
-const pages = [
-  book1Image,
-  book2Image,
-  book3Image,
-  book4Image,
-];
+const pages = [book1Image, book2Image];
 
 const BookComponent = () => {
   const [index, setIndex] = useState(0);
@@ -54,4 +47,3 @@ const BookComponent = () => {
 };
 
 export default BookComponent;
-

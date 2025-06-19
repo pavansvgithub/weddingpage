@@ -1,30 +1,29 @@
-.schedule-h1{
-    font-size: 40px;
+.schedule-h1 {
+  font-size: 40px;
 }
-.schedule-div{
-    text-align: center;
+.schedule-div {
+  text-align: center;
 }
-.schedule-items-div{
-    gap: 10px;
+.schedule-items-div {
+  gap: 10px;
 }
-.schedule-item{
-    background-image: url("https://s3-alpha-sig.figma.com/img/c34d/526e/2f8adbdeb9282f6767b590f848cdfdbc?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NWmJCZ-Rysumi8FWwybSQ4RAtr51i2di~pzCtT9b8BMyj4Ua5SLSv18NY~XTjh4M0rS-E5PanJmj0wjzgVMB6mtpie~oPIToRLhcTt4nffsWnp~0NCWkHhSp7vUAQEcTXvQFcq85xQ3mU9QZU5mX-IVcJuZt54AI~RdYOGKny9~PBirBZf5mNf~n-TxEezKDqBM0o5i~78ydbSm6uyk6FIUeDWiBfuCZx11DBCoLOLHZXXkeikApLzdAh49cOlbf1NkYNMvydDYQM1cK2D6QFxSlmmKRPhPWvWexdv~-RJZTrwWJzisMbX1IsUS3tSF-1C2SNgKuyaUwR7R2qXY6qA__");
-    background-size: cover;
-    height: 300px;
-    width: 300px;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.schedule-item {
+  background-image: url("../../images/story-shape-6\ 2.png");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.schedule-item-h1{
-    font-size: 25px;
+.schedule-item-h1 {
+  font-size: 25px;
 }
-.schedule-item-p1{
-    font-size: 15px;
-    color: #5C5C5C;
-    margin: 0;
-    padding: 0;
+.schedule-item-p1 {
+  font-size: 15px;
+  color: #5c5c5c;
+  margin: 0;
+  padding: 0;
 }
-

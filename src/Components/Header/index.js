@@ -1,42 +1,25 @@
-import { NavLink } from "react-router-dom";
 import "./index.css";
 
 const Header = () => {
   return (
-    <div className="header-div px-5 mx-5 d-flex flex-row justify-content-start align-items-center bg-warning">
+    <div className="header-div px-5 mx-5 d-flex flex-row justify-content-start align-items-center bg-warnig">
       <h1 className="sail-font primary-color header-h1">Wedding</h1>
-
       <div className="jost-font primary-color navitem-div">
-        <NavLink
-          className="m-4 primary-color header-text"
-          to="/"
-        >
+        <a className="m-4 primary-color header-text" href="/">
           HOME
-        </NavLink>
-        <NavLink
-          className="m-4 primary-color header-text"
-          to="/schedule"
-        >
+        </a>
+        <a className="m-4 primary-color header-text" href="/">
           SCHEDULES
-        </NavLink>
-        <NavLink
-          className="m-4 primary-color header-text"
-          to="/rsvp"
-        >
+        </a>
+        <a className="m-4 primary-color header-text" href="/">
           RSVP
-        </NavLink>
-        <NavLink
-          className="m-4 primary-color header-text"
-          to="/gallery"
-        >
+        </a>
+        <a className="m-4 primary-color header-text" href="/">
           GALLERY
-        </NavLink>
-        <NavLink
-          className="m-4 primary-color header-text"
-          to="/gift-registry"
-        >
+        </a>
+        <a className="m-4 primary-color header-text" href="/">
           GIFT REGISTRY
-        </NavLink>
+        </a>
       </div>
     </div>
   );
